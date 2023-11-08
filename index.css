@@ -1,0 +1,115 @@
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #000000;
+  color: white;
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.foto {
+    width: 310px;
+    height: 310px;
+    margin: 0;
+    background: #C4C4C4;
+    border: 5px double #2E9AFF;
+}
+
+.name {
+    display: block;
+    width: 320px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    background-color: beige;
+    color: #000000;
+    text-align: center;
+}
+
+.balance {
+    display: block;
+    width: 320px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    background-color: aquamarine;
+    color: #000000;
+    text-align: center;
+}
+
+.storage {
+    display: block;
+    width: 320px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    background-color: beige;
+    color: #000000;
+    text-align: center;
+}
+
+.storage-item {
+    display: block;
+    width: 320px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    background-color: beige;
+    color: red;
+    text-align: center;
+}
+
+.scan-button {
+    margin: 20px 0;
+    width: 320px;
+    height: 50px;
+    padding: 0;
+    background-color: gray;
+    border: 2px solid rgba(255, 255, 255, 1);
+    font-size: 24px;
+    color: white;
+    border-radius: 2px;
+    box-sizing: border-box;
+    transition: opacity .5s linear;
+  }
+  
+  .scan-button:hover  {
+    opacity: 0.6;
+    border-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+  }
+
+  .input {
+    width: 320px;
+    padding: 0;
+    border: 2px solid blue;
+    font-size: 24px;
+    border-radius: 2px;
+  }
+
+  .input-label {
+    width: 320px;
+    text-align: center;
+  }
+  
